@@ -27,10 +27,10 @@ The below are the methods that must be present on your models. Feel free to buil
 
 Build the following methods on the Author class
 
-+ Author.all
-  + should return all of the authors
-+ Author#articles
-  + returns a list of articles the author has written
+<!-- + Author.all
+  + should return all of the authors -->
+
+
 + Author#magazines
   + should return a list of magazines for which the author has written  
 + Author#add_article(title, magazine)
@@ -40,18 +40,18 @@ Build the following methods on the Author class
 
 Build out the following methods on the Article class
 
-+ Article.all
-  + returns all of the articles
+<!-- + Article.all
+  + returns all of the articles -->
 + Article#author
   + returns the author for that given article
 + Article#magazine
-  + returns the restaurant for that given article
+  + returns the magainze for that given article
 
-Build out the following methods on the restaurant class
+Build out the following methods on the magazine class
 
-+ Magazine.all
-  + returns an array of all magazines
-+ Magazine.find_by_name(name)
-  + given a string of magazine name, returns the first magazine that matches
-+ Magazine#article_titles
-  + returns a list of the titles of all articles written for that magazine
+<!-- + Magazine.all
+  + returns an array of all magazines -->
+<!-- + Magazine.find_by_name(name)
+  + given a string of magazine name, returns the first magazine that matches -->
+<!-- + Magazine#article_titles
+  + returns a list of the titles of all articles written for that magazine -->
